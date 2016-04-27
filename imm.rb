@@ -2,9 +2,8 @@ require 'formula'
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url 'https://github.com/cunytv/imm/archive/v0.1.zip'
-  sha256 'a5d72163fd239ed70218dab28f4403cc9744ae61a870d94c17ac622d2e2ffb3f'
-
+  version 'v0.1'
+  url 'https://github.com/cunytv/imm.git', :branch => 'master'
   head 'https://github.com/cunytv/imm.git'
 
   depends_on 'mediamicroservices/mm/mm'
