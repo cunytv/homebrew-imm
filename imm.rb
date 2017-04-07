@@ -9,9 +9,7 @@ class Imm < Formula
   depends_on 'mediamicroservices/mm/mm'
 
   def install
-    bin.install "fm2resourcespace/fm2rs"
-    bin.install "fm2resourcespace/fmp2resourcespace.xsl"
-    bin.install "QueryResourceSpace.sh"
+    bin.install "omneon2resourcespace"
     bin.install "storagereport"
     bin.install "youtube_delivery/ftpcleanup"
     bin.install "youtube_delivery/ftpscan"
