@@ -9,6 +9,7 @@ class Imm < Formula
   depends_on 'mediamicroservices/mm/mm'
 
   def install
+    bin.install "import_prepped"
     bin.install "omneon2resourcespace"
     bin.install "storagereport"
     bin.install "youtube_delivery/ftpcleanup"
