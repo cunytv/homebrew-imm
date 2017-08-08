@@ -16,5 +16,6 @@ class Imm < Formula
     bin.install "youtube_delivery/ftpscan"
     bin.install "cleanupstudio"
     bin.install "lookfornew"
+    bin.install "uploadia"
   end
 end
