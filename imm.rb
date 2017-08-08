@@ -5,6 +5,7 @@ class Imm < Formula
   version 'v0.1'
   url 'https://github.com/cunytv/imm.git', :branch => 'master'
   head 'https://github.com/cunytv/imm.git'
+  revision 1
 
   depends_on 'mediamicroservices/mm/mm'
 
