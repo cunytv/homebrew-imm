@@ -5,7 +5,7 @@ class Imm < Formula
   version 'v0.1'
   url 'https://github.com/cunytv/imm.git', :branch => 'master'
   head 'https://github.com/cunytv/imm.git'
-  revision 1
+  revision 2
 
   depends_on 'mediamicroservices/mm/mm'
 
@@ -18,5 +18,6 @@ class Imm < Formula
     bin.install "cleanupstudio"
     bin.install "lookfornew"
     bin.install "uploadia"
+    bin.install "captions/vtt2xmeml"
   end
 end
