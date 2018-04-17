@@ -15,6 +15,7 @@ class Imm < Formula
     bin.install "storagereport"
     bin.install "youtube_delivery/ftpcleanup"
     bin.install "youtube_delivery/ftpscan"
+    bin.install "youtube_delivery/uploadyoutube"
     bin.install "cleanupstudio"
     bin.install "lookfornew"
     bin.install "uploadia"
