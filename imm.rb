@@ -19,6 +19,7 @@ class Imm < Formula
     bin.install "cleanupstudio"
     bin.install "lookfornew"
     bin.install "uploadia"
+    bin.install "makedn"
     bin.install "captions/vtt2xmeml"
   end
 end
