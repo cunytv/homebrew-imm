@@ -13,6 +13,7 @@ class Imm < Formula
     bin.install "import_prepped"
     bin.install "omneon2resourcespace"
     bin.install "storagereport"
+    bin.install "makeomneon"
     bin.install "youtube_delivery/ftpcleanup"
     bin.install "youtube_delivery/ftpscan"
     bin.install "youtube_delivery/uploadyoutube"
