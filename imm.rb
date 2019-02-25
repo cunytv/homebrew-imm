@@ -22,5 +22,6 @@ class Imm < Formula
     bin.install "uploadia"
     bin.install "makedn"
     bin.install "captions/vtt2xmeml"
+    bin.install "remove_sdtb"
   end
 end
