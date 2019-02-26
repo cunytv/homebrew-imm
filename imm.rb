@@ -8,6 +8,7 @@ class Imm < Formula
   revision 4
 
   depends_on 'mediamicroservices/mm/mm'
+  depends_on 'sfk'
 
   def install
     bin.install "import_prepped"
