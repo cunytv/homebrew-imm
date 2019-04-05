@@ -5,7 +5,7 @@ class Imm < Formula
   version 'v0.1'
   url 'https://github.com/cunytv/imm.git', :branch => 'master'
   head 'https://github.com/cunytv/imm.git'
-  revision 4
+  revision 5
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'sfk'
@@ -24,5 +24,7 @@ class Imm < Formula
     bin.install "makedn"
     bin.install "captions/vtt2xmeml"
     bin.install "remove_sdtb"
+    bin.install "fm2pbcore/fm2pbcore.xsl"
+    bin.install "fm2pbcore/fmpbcore"
   end
 end
