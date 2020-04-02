@@ -5,7 +5,7 @@ class Imm < Formula
   version 'v0.1'
   url 'https://github.com/cunytv/imm.git', :branch => 'master'
   head 'https://github.com/cunytv/imm.git'
-  revision 6
+  revision 7
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'sfk'
@@ -21,6 +21,7 @@ class Imm < Formula
     bin.install "cleanupstudio"
     bin.install "lookfornew"
     bin.install "uploadia"
+    bin.install "uploadiatemp"
     bin.install "makedn"
     bin.install "captions/vtt2xmeml"
     bin.install "remove_sdtb"
