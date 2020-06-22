@@ -28,5 +28,7 @@ class Imm < Formula
     bin.install "fm2pbcore/fm2pbcore.xsl"
     bin.install "fm2pbcore/fmpbcore"
     bin.install "delivercaptions"
+    bin.install "psipmerger"
+    bin.install "psipmerger.xsl"
   end
 end
