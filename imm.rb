@@ -3,9 +3,9 @@ require 'formula'
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
   version 'v0.1'
-  url 'https://github.com/cunytv/imm.git'
+  url 'https://github.com/cunytv/imm.git', :branch => 'main'
   head 'https://github.com/cunytv/imm.git'
-  revision 9
+  revision 10
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'sfk'
