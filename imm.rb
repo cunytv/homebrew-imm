@@ -5,9 +5,10 @@ class Imm < Formula
   version 'v0.1'
   url 'https://github.com/cunytv/imm.git', :branch => 'main'
   head 'https://github.com/cunytv/imm.git'
-  revision 10
+  revision 11
 
   depends_on 'mediamicroservices/mm/mm'
+  depends_on 'openai-whisper'
   depends_on 'sfk'
 
   def install
