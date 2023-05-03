@@ -31,6 +31,8 @@ class Imm < Formula
     bin.install "delivercaptions"
     bin.install "psip_handling/psipmerger"
     bin.install "psip_handling/psipmerger.xsl"
+    bin.install "restructurerawfootage.py"
+    bin.install "studiochecksum.py"
     bin.install "ytsum.py"
   end
 end
