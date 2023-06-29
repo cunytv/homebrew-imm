@@ -34,5 +34,6 @@ class Imm < Formula
     bin.install "restructurerawfootage.py"
     bin.install "studiochecksum.py"
     bin.install "ytsum.py"
+    bin.install "ingestremote.py"
   end
 end
