@@ -35,5 +35,7 @@ class Imm < Formula
     bin.install "studiochecksum.py"
     bin.install "ytsum.py"
     bin.install "ingestremote.py"
+    bin.install "ingestremote2.py"
+    bin.install "detectrecentlyinserteddrives.py"
   end
 end
