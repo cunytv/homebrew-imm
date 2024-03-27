@@ -37,5 +37,8 @@ class Imm < Formula
     bin.install "ingestremote.py"
     bin.install "ingestremote2.py"
     bin.install "detectrecentlyinserteddrives.py"
+    bin.install "ingestcommands.py"
+    bin.install "restructurepackage.py"
+    bin.install "validatepackagename.py"
   end
 end
