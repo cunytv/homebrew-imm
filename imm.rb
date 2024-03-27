@@ -2,10 +2,9 @@ require 'formula'
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  version 'v0.1'
-  url 'https://github.com/cunytv/imm.git', :branch => 'main'
+  url "https://github.com/cunytv/imm/archive/refs/tags/V0.2.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy 
+  sha256 "5bf9538424255cec08bc631d7c3c4d124cf8fd670d50b3ec373807e70a1e974b"
   head 'https://github.com/cunytv/imm.git'
-  revision 11
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
