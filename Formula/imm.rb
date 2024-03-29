@@ -4,7 +4,7 @@ require_relative "../custom_download_strategy.rb"
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
   url "https://github.com/cunytv/imm/archive/refs/tags/V0.3.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy 
-  sha256 "a7e16ddfbaba2ee9ad7056493efb2f04724a17b38674d0a75464e2b74cce75fd"
+  sha256 "9f7e2d3de4ff8eae50df8eacd465fb4795777ba120881b0cbf403c38e3ddb0e3"
   head 'https://github.com/cunytv/imm.git'
   revision 3
 
