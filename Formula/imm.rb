@@ -3,8 +3,8 @@ require_relative "../custom_download_strategy.rb"
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/V0.3.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy 
-  sha256 "9f7e2d3de4ff8eae50df8eacd465fb4795777ba120881b0cbf403c38e3ddb0e3"
+  url "https://github.com/cunytv/imm/archive/refs/tags/V0.4.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy 
+  sha256 "98c6eabc3d37f620b8d2978b1701d5aeae232f7b9b58e24e4d7af003a7781e17"
   head 'https://github.com/cunytv/imm.git'
 
   depends_on 'mediamicroservices/mm/mm'
@@ -39,6 +39,7 @@ class Imm < Formula
     bin.install "detectrecentlyinserteddrives.py"
     bin.install "ingestcommands.py"
     bin.install "restructurepackage.py"
-    bin.install "validatepackagename.py"
+    bin.install "validateuserinput.py"
+    bin.install "dropboxuploadsession.py"
   end
 end
