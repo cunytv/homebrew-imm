@@ -6,7 +6,7 @@ class Imm < Formula
   url "https://github.com/cunytv/imm/archive/refs/tags/V0.3.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy 
   sha256 "9f7e2d3de4ff8eae50df8eacd465fb4795777ba120881b0cbf403c38e3ddb0e3"
   head 'https://github.com/cunytv/imm.git'
-  revision 3
+  #revision 3
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
