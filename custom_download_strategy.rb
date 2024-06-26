@@ -8,13 +8,13 @@ class GitHubPrivateRepositoryDownloadStrategy < CurlDownloadStrategy
     set_github_token
   end
   def parse_url_pattern
-    unless match = url.match(%r{https://github.com/([^/]+)/([^/]+)/(\S+)})
+    unless match = url.match(%r{https://github.com/([^/]+)/([^/]+)/archive/refs/tags/(\S+)})
       raise CurlDownloadStrategyError, "Invalid url pattern for GitHub Repository."
     end
-    _, @owner, @repo, @filepath = *match
+    _, @owner, @repo, @tag = *match
   end
   def download_url
-    "https://#{@github_token}@github.com/#{@owner}/#{@repo}/#{@filepath}"
+    "https://#{@github_token}@github.com/#{@owner}/#{@repo}/archive/refs/tags/#{@tag}"
   end
   private
   def _fetch(url:, resolved_url:, timeout:)
