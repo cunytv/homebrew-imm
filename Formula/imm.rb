@@ -41,7 +41,7 @@ class Imm < Formula
     bin.install "ingestcommands.py"
     bin.install "restructurepackage.py"
     bin.install "validateuserinput.py"
-    bin.install "sendnetworkemail.py"
+    bin.install "sendnetworkmail.py"
     bin.install "dropboxuploadsession.py"
   end
 end
