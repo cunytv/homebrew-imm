@@ -1,9 +1,9 @@
 require "formula"
-require_relative "../custom_download_strategy.rb"
+#require_relative "../custom_download_strategy.rb"
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/v0.6.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy 
+  url "https://github.com/cunytv/imm/archive/refs/tags/v0.6.tar.gz"
   sha256 "bc1758769fee9b74169c22285d2339ea37a196edb0f4b48916090f21015ef032"
   head 'https://github.com/cunytv/imm.git'
   revision 2
