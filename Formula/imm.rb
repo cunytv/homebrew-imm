@@ -4,7 +4,7 @@ require "formula"
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
   url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.tar.gz"
-  sha256 "e9d01c91db62f9259ed65b9b39c46b70b702ee4b9c5b339af3655b406051f631"
+  sha256 "83743d28866c3be62df5bbfb1d9a62d54aee22a201907d7d025b4002abca7c70"
   head 'https://github.com/cunytv/imm.git'
   revision 1
 
