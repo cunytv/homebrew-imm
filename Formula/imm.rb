@@ -3,8 +3,8 @@ require "formula"
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.tar.gz"
-  sha256 "83743d28866c3be62df5bbfb1d9a62d54aee22a201907d7d025b4002abca7c70"
+  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.1.tar.gz"
+  sha256 "7eeb89183a88e8a7fe277cff8040bc657c729e9eb3453126be91c0e5e07423e2"
   head 'https://github.com/cunytv/imm.git'
   revision 1
 
@@ -30,6 +30,7 @@ class Imm < Formula
     bin.install "fm2pbcore/fm2pbcore.xsl"
     bin.install "fm2pbcore/fmpbcore"
     bin.install "delivercaptions"
+    bin.install "ltosearch"
     bin.install "psip_handling/psipmerger"
     bin.install "psip_handling/psipmerger.xsl"
     bin.install "restructurerawfootage.py"
