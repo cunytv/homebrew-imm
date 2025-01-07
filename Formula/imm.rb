@@ -13,7 +13,7 @@ class Imm < Formula
   depends_on 'sfk'
 
   def install
-    bin.install "import_prepped"
+    bin.install "resourcespace/import_prepped"
     bin.install "omneon2resourcespace"
     bin.install "storagereport"
     bin.install "makeomneon"
