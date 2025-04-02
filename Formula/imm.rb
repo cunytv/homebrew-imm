@@ -3,10 +3,10 @@ require "formula"
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.5.tar.gz"
-  sha256 "68be482b7e3274f62799e9da01dcac05759f4a91ed37d59e8749f7f55b5c5c0b"
+  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.6.tar.gz"
+  sha256 "3e12c6bb3aad79924420944cfc525449a797d25205a668e17eb16695e2b4d56d"
   head 'https://github.com/cunytv/imm.git'
-  revision 2
+  #revision 2
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
