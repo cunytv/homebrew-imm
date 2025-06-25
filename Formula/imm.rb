@@ -3,8 +3,8 @@ require "formula"
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.9.tar.gz"
-  sha256 "1cfa27e92a2decb6e5b86f79a1ff8da32dca7c227420afb394961bf273764568"
+  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.10.tar.gz"
+  sha256 "5f3abd09658788f0340a3a9b1d1704ddd7cc67961ea3fe3098c9d0e6e4d0e519"
   head 'https://github.com/cunytv/imm.git'
   #revision 1
 
