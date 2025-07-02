@@ -6,7 +6,7 @@ class Imm < Formula
   url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.11.tar.gz"
   sha256 "1bc8dc102a394ef2818696264295cc01a7d24a0cfdaf7889fe5770af3e86c408"
   head 'https://github.com/cunytv/imm.git'
-  #revision 2
+  revision 1
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
@@ -47,5 +47,6 @@ class Imm < Formula
     bin.install "dropboxuploadsession.py"
     bin.install "detectiphone.py"
     bin.install "downloadlatestiphonemedia.scpt"
+    bin.install "remote_resource_space_ingest.php"
   end
 end
