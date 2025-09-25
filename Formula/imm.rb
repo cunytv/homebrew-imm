@@ -49,5 +49,6 @@ class Imm < Formula
     bin.install "downloadlatestiphonemedia.scpt"
     bin.install "remote_resource_space_ingest.php"
     bin.install "cunymediaids.php"
+    bin.install "movestudio"
   end
 end
