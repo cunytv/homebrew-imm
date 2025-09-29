@@ -1,12 +1,15 @@
 require "formula"
 #require_relative "../custom_download_strategy.rb"
 
+#use this link to download tar.gz package, replace with corresponding version: 
+#https://codeload.github.com/cunytv/imm/tar.gz/refs/tags/v0.9.13
+
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.12.tar.gz"
-  sha256 "85cb37dc7d9f44ddb732e7b39358c7aa8556eb19477c370f66d406ce28c204ec"
+  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.13.tar.gz"
+  sha256 "3074bd6faddb85c6b2600d6b3827584083310b11db8bf7c44bc024a6a1b2b4a1"
   head "https://github.com/cunytv/imm.git", branch: "main"
-  revision 1
+  #revision 1
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
@@ -50,5 +53,7 @@ class Imm < Formula
     bin.install "remote_resource_space_ingest.php"
     bin.install "cunymediaids.php"
     bin.install "movestudio"
+    bin.install "multiprogressbar.py"
+    bin.install "filetype.py"
   end
 end
