@@ -9,7 +9,7 @@ class Imm < Formula
   url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.15.tar.gz"
   sha256 "55f05da5d7f0e6015d9f629165b7a312042fbc73fcbda8f2925b9221bc30f4fb"
   head "https://github.com/cunytv/imm.git", branch: "main"
-  #revision 1
+  revision 1
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
@@ -55,7 +55,7 @@ class Imm < Formula
     bin.install "movestudio"
     bin.install "multiprogressbar.py"
     bin.install "generateDBphotofolders.py"
-    bin.install "deleteempyDBphotofolders.py"
+    #bin.install "deleteempyDBphotofolders.py"
     bin.install "filetype.py"
   end
 end
