@@ -6,10 +6,10 @@ require "formula"
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.14.tar.gz"
-  sha256 "ed565e127bb721baf921fa87b8f31379ee78a97a9b6dc4e8a4a3a756ff18bbc7"
+  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.15.tar.gz"
+  sha256 "55f05da5d7f0e6015d9f629165b7a312042fbc73fcbda8f2925b9221bc30f4fb"
   head "https://github.com/cunytv/imm.git", branch: "main"
-  revision 1
+  #revision 1
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
@@ -54,6 +54,8 @@ class Imm < Formula
     bin.install "cunymediaids.php"
     bin.install "movestudio"
     bin.install "multiprogressbar.py"
+    bin.install "generateDBphotofolders.py"
+    bin.install "deleteempyDBphotofolders.py"
     bin.install "filetype.py"
   end
 end
