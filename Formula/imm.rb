@@ -9,7 +9,7 @@ class Imm < Formula
   url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.16.tar.gz"
   sha256 "714ad9550ee3cda9a845820f51cb466ba5bd1dc47b699d4012bc4f9f01a28c65"
   head "https://github.com/cunytv/imm.git", branch: "main"
-  revision 1
+  revision 2
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
@@ -50,12 +50,17 @@ class Imm < Formula
     bin.install "dropboxuploadsession.py"
     bin.install "detectiphone.py"
     bin.install "downloadlatestiphonemedia.scpt"
-    bin.install "remote_resource_space_ingest.php"
     bin.install "cunymediaids.php"
     bin.install "movestudio"
     bin.install "multiprogressbar.py"
     bin.install "generateDBphotofolders.py"
     #bin.install "deleteempyDBphotofolders.py"
     bin.install "filetype.py"
+    bin.install "longpoll.py"
+    bin.install "resourcespace/longpoll_photo_files.py"
+    bin.install "resourcespace/longpoll_remote_folders.py"
+    bin.install "resourcespace/update_db_link_by_folder.php"
+    bin.install "resourcespace/update_db_link_by_title.php"
+    
   end
 end
