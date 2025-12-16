@@ -1,8 +1,8 @@
 require "formula"
 #require_relative "../custom_download_strategy.rb"
 
-#use this link to download tar.gz package, replace with corresponding version: 
-#https://codeload.github.com/cunytv/imm/tar.gz/refs/tags/v0.9.13
+#use this cmd to download tar.gz package, replace with corresponding version: 
+# curl -L -o /Users/aidagarrido/Downloads/imm-v09.17.tar.gz https://github.com/cunytv/imm/archive/refs/tags/v09.17.tar.gz
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
