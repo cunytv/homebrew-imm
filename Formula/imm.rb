@@ -9,6 +9,7 @@ class Imm < Formula
   url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.20.tar.gz"
   sha256 "6de99888bba2a2a3282ef48a881296848372c8e650b27dd07b278282cd550311"
   head "https://github.com/cunytv/imm.git", branch: "main"
+  revision 1
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
@@ -58,6 +59,7 @@ class Imm < Formula
     bin.install "resourcespace/longpoll_remote_folders.py"
     bin.install "resourcespace/update_db_link_by_folder.php"
     bin.install "resourcespace/update_db_link_by_title.php"
+    bin.install "deleteempyDBphotofolders.py"
     
   end
 end
