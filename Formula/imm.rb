@@ -9,7 +9,7 @@ class Imm < Formula
   url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.23.tar.gz"
   sha256 "84831c87f084ee2be230c38b4b40a5228b75beca2b848cc72022e6df7af1717b"
   head "https://github.com/cunytv/imm.git", branch: "main"
-  revision 1
+  revision 2
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
@@ -60,6 +60,7 @@ class Imm < Formula
     bin.install "resourcespace/update_db_link_by_folder.php"
     bin.install "resourcespace/update_db_link_by_title.php"
     bin.install "deleteempyDBphotofolders.py"
+    bin.install "rsingestmanifest.py"
     
   end
 end
