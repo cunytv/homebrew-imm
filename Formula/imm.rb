@@ -2,12 +2,12 @@ require "formula"
 #require_relative "../custom_download_strategy.rb"
 
 #use this cmd to download tar.gz package, replace with corresponding version: 
-# curl -L -o /Users/libraryad/Downloads/imm-v09.26.tar.gz https://github.com/cunytv/imm/archive/refs/tags/v09.26.tar.gz
+# curl -L -o /Users/libraryad/Downloads/imm-v09.27.tar.gz https://github.com/cunytv/imm/archive/refs/tags/v09.27.tar.gz
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.26.tar.gz"
-  sha256 "472b5fa26a9e8144f7392bdd54e44846d879aa6551494d43364421833049320e"
+  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.27.tar.gz"
+  sha256 "ec51434d084ba142390b2b65b60b0989f6ca3b0bd001906a4ba4342b9a6a089d"
   head "https://github.com/cunytv/imm.git", branch: "main"
 
   depends_on 'mediamicroservices/mm/mm'
