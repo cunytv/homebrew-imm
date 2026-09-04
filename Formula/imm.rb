@@ -6,14 +6,15 @@ require "formula"
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.27.tar.gz", header: "Authorization: bearer #{GitHub::API.credentials}"
-  sha256 "ec51434d084ba142390b2b65b60b0989f6ca3b0bd001906a4ba4342b9a6a089d"
+  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.28.tar.gz", header: "Authorization: bearer #{GitHub::API.credentials}"
+  sha256 "c0783f09cbd2530b0ea30b397933f2f1811c28f4ff23c5bc93c391c99af5d7fc"
   head "https://github.com/cunytv/imm.git", branch: "main"
-  revision 1
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
   depends_on 'sfk'
+  depends_on 'weasyprint'
+  depends_on 'gawk'
 
   def install
     bin.install "resourcespace/import_prepped"
@@ -61,6 +62,7 @@ class Imm < Formula
     bin.install "resourcespace/update_db_link_by_title.php"
     bin.install "deleteempyDBphotofolders.py"
     bin.install "rsingestmanifest.py"
+    bin.install "make_protrack_reports"
     
   end
 end
