@@ -6,9 +6,10 @@ require "formula"
 
 class Imm < Formula
   homepage 'https://github.com/cunytv/imm'
-  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.27.tar.gz"
+  url "https://github.com/cunytv/imm/archive/refs/tags/v0.9.27.tar.gz", header: "Authorization: bearer #{GitHub::API.credentials}"
   sha256 "ec51434d084ba142390b2b65b60b0989f6ca3b0bd001906a4ba4342b9a6a089d"
   head "https://github.com/cunytv/imm.git", branch: "main"
+  revision 1
 
   depends_on 'mediamicroservices/mm/mm'
   depends_on 'openai-whisper'
